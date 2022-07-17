@@ -216,6 +216,7 @@
   margin: 24px auto;
 }
 .doctor-section-title .text {
+  padding-bottom: 40px;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -4326,18 +4327,19 @@ button:focus {
   }
 }
 .article-detail-area__content-three .small-content.mb-32 {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 @media (min-width: 992px) {
   .article-detail-area__content-three .small-content.mb-32 {
-    padding-bottom: 32px;
+    padding-bottom: 64px;
   }
 }
 .article-detail-area__content-three .small-content .title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 26px;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
+  padding-top: 24px;
   color: var(--bs-gray-900);
 }
 .article-detail-area__content-three .small-content .text {
@@ -4345,7 +4347,7 @@ button:focus {
   font-size: 16px;
   line-height: 144%;
   color: var(--bs-gray-700);
-  padding: 0;
+  padding-bottom: 20px;
 }
 .article-detail-area__content-four img {
   padding-bottom: 20px;
