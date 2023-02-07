@@ -2303,6 +2303,8 @@ small {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+  background-color: #C75001 !important;
+  border-color:#C75001 !important;
 }
 .d-btn svg {
   margin-left: 12px;
@@ -2325,10 +2327,10 @@ small {
 }
 .d-btn.d-btn-primary:hover {
   background: transparent;
-  color: var(--bs-primary-500);
+  color: white !important;;
 }
 .d-btn.d-btn-primary:hover svg path {
-  stroke: var(--bs-primary-500);
+  stroke:#C75001;
 }
 .d-btn.d-btn-outline-primary {
   color: var(--bs-primary-500);
@@ -4650,6 +4652,7 @@ blockquote .content .name {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color:#4CBBB9 !important;
 }
 .theme-change-button .toggle-button {
   width: 24px;
