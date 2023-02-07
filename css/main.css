@@ -2758,7 +2758,7 @@ button:focus {
   line-height: 24px;
   padding: 6px 0;
   transition: 0.3s;
-  color: var(--bs-primary-500);
+  color: #C75001;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -2772,20 +2772,22 @@ button:focus {
   transition: 0.3s;
   width: 0%;
   height: 2px;
-  background: #125FB7;
+  background: #C75001;
 }
 .dev-card-service .card-body .link-btn svg {
   margin-left: 8px;
 }
 .dev-card-service .card-body .link-btn svg path {
   transition: 0.3s;
-  stroke: var(--bs-primary-500);
+  stroke: #C75001 !important;
+  );
 }
 .dev-card-service .card-body .link-btn:hover {
-  color: var(--bs-primary-600);
+  color: #C75001 !important;
+  ;
 }
 .dev-card-service .card-body .link-btn:hover svg path {
-  stroke: var(--bs-primary-600);
+  stroke: #C75001;
 }
 .dev-card-service .card-body .link-btn:hover::before {
   width: 100%;
