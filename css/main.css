@@ -2719,6 +2719,7 @@ button:focus {
   transition: 0.3s;
   padding: 40px;
   border-radius: 8px;
+  margin-bottom: 30px;
 }
 @media (max-width: 525px) {
   .dev-card-service {
@@ -2731,13 +2732,15 @@ button:focus {
 }
 .dev-card-service .card-image img {
   width: 100%;
+  border-radius: 4px;
+
 }
 .dev-card-service .card-body {
   padding: 0px;
 }
 .dev-card-service .card-body .card-title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
   margin-bottom: 12px;
   color: var(--bs-gray-900);
@@ -4639,6 +4642,7 @@ blockquote .content .name {
   z-index: 99;
 }
 
+
 .theme-change-button {
   overflow: hidden;
   position: fixed;
@@ -4646,6 +4650,7 @@ blockquote .content .name {
   right: 24px;
   z-index: 9999;
 }
+
 .theme-change-button .toggle-button-switcher {
   border: 2px solid #fff;
   border-radius: 50px;
