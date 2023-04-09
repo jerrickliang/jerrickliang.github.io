@@ -4460,6 +4460,7 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -4993,6 +4994,25 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid transparent;
   border-radius: 10px;
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes moveInBottom{
+  0%{
+      opacity: 0;
+      transform: translateY(1rem);
+  }
+
+  80%{
+      transform:translateY(-1rem);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 .card > hr {
   margin-right: 0;

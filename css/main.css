@@ -152,6 +152,7 @@
   font-family: "JetBrains Mono", sans-serif;
   padding-bottom: 20px;
 }
+
 @media (min-width: 575px) {
   .doctor-display-title .title {
     font-size: 40px;
@@ -2442,7 +2443,27 @@ button:focus {
   padding: 60px 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; 
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes moveInBottom{
+  0%{
+      opacity: 0;
+      transform: translateY(5rem);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
+
+  to{
+    transform: translateY(0);
+  }
+  
 }
 @media (min-width: 768px) {
   .dev-hero-area__bg {
